@@ -7,6 +7,22 @@
 ! RAW: https://raw.githubusercontent.com/bogachenko/fuckfuckadblock/master/fuckfuckadblock.txt
 ! CDN: https://github.com/bogachenko/fuckfuckadblock/wiki/Mirror-lists
 
+! Elisson Mods
+filmesviatorrents.me,filmestorrents.net#%#//scriptlet('abort-on-property-write', 'go')
+jogosapkmod.com,wrapk.net,nightwolfapk.com.br,baixarapkmod.net,thepiratefilmetorrent.net#%#//scriptlet('abort-on-property-write', 'cuc')
+baixefilme.net,ondebaixo.com#%#//scriptlet('prevent-addEventListener', 'click')
+meusfilmestorrenthd.net#%#//scriptlet('abort-on-property-write', 'executaForm')
+thepiratefilmes.xyz,filmescompleto.com.br#%#//scriptlet('abort-on-property-read', 'redirectpage')
+
+*detect-adblocker*^$script,empty
+*prot-apk*^
+*/scripts/invisible.js*^
+*tinypass*^$empty
+*paywall*^$empty
+*logolynx*^$empty
+
+! End
+
 ###AdBlockDialog
 ###ab--notification-ribbon
 ###abDetected
